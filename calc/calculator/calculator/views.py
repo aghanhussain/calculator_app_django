@@ -30,3 +30,6 @@ def calculate(request):
 
 def myfunc():
     return render(request, 'index.html', {'name':'nasir'})
+
+def myfunc():
+    return render(request, 'index.html', {'name':'nasir'})
