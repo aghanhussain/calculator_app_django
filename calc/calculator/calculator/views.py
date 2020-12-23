@@ -28,3 +28,5 @@ def calculate(request):
 
     return render(request, 'index.html', result)
 
+def myfunc():
+    return render(request, 'index.html', {'name':'nasir'})
